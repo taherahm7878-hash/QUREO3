@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+* {
+    font-weight: bold;
+    color: black;
+}body {
+    background-color: azure;
+} h6 {
+    font-size: 30px;
+    text-align: right;
+}
+        h1 {
+            font-size: 60px;
+            text-align: center;
+        } pre {
+            font-size: xx-large;
+            text-align: center;
+        } h2 {
+            text-align: right;
+        } h3 {
+            font-size:40px;
+        } h3 {
+            text-align: right;
+        }.qwe {
+    background-color: #f4f4f4;
+    border-left: 5px solid #28a745; 
+    text-align: left;
+    padding: 15px;
+    line-height: 1.5;
+    border-radius: 5px; 
+    overflow-x: auto; 
+} .ert {
+    text-align: left;
+} hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, transparent, green, transparent);
+    margin: 20px 0;
+} h5 {
+    font-size: 60px;
+    text-align: center;
+    border-left:50px solid #28a745;
+    border-right:50px solid #28a745;
+    border-bottom:50px double #28a745;
+    border-top:50px double #28a745;
+} @media screen and (max-width: 600px) {
+        body {
+            padding: 15px;
+            font-size: 16px;
+        }
+        pre {
+            white-space: pre-wrap;
+            font-size: 14px;
+        }
+} .btn-answers {
+    background-color: darkgreen; 
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 50px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2); 
+    transition: 0.3s; 
+}
+
+.btn-answers:hover {
+    background-color: green;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+}
+@media screen and (max-width: 600px) {
+    .btn-answers {
+        display: block; 
+        font-size: 18px;
+        padding: 12px;
+    }
+} .final-footer {
+    margin-top: 60px; 
+    padding: 30px;
+    text-align: center;
+    background-color: #ffffff; 
+    border-top: 2px solid #1a73e8;
+    border-bottom: 2px solid #1a73e8;
+    border-radius: 15px;
+}
+
+.supervision {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.person {
+    margin: 15px;
+}
+
+.person strong {
+    display: block;
+    color: #1a73e8;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.person span {
+    font-size: 18px;
+    color: #333;
+    font-weight: 500;
+}
+@media screen and (max-width: 600px) {
+    .supervision {
+        flex-direction: column; 
+        gap: 25px;
+    }
+}
+
+.supervision {
+    display: flex;
+    justify-content: center;
+    gap: 50px; 
+    flex-wrap: wrap; 
+    margin-top: 20px;
+}
+
+.person {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.person strong {
+    color: #1a73e8; 
+    font-size: 18px;
+}
+
+.person span {
+    font-size: 20px;
+    color: #333;
+}
+
+@media screen and (max-width: 600px) {
+    .supervision {
+        gap: 20px;
+        flex-direction: column;
+    }
+}
+    </style>
+</head>
+<body>
+    <h6>المستوى الثالث : صعب</h6>
+    <h1>HELLO</h1> 
+    <pre>كورس للتدريب على المستويات المتقدمه</pre>
+    <pre>
+عدد الأسئلة 10 سؤال
+    </pre>
+    <hr>
+    <hr>
+    <h2>السؤال الأول</h2>
+    <h3>ما نتيجة الكود الأتي</h3>
+<pre class="qwe">
+<code>
+let num = 10;
+let nUm = 0;
+let nuM = 100;
+if ((!(num + nuM == nUm) || ((nUm - 0 <= num)) && (num + nUm != nuM))) {
+  num = nUm + nuM - 10;
+} else {
+  nUm = num + nuM;
+}
+console.log(nuM);
+</code>
+</pre>
+<br>
+<pre class="ert">
+A - 110    C - NoThing
+b - 0      D - 100
+</pre>
+<br>
+<hr>
+<hr>
+<hr>
+<br>
+<h2>السؤال الثاني</h2>
+<h3>ما نتيجة الكود الأتي</h3>
+<pre class="qwe">
+<code>
+let a = 1; 
+let b = 2; 
+let c = 3;
+if ((a + b == c) && (c == b + a) || (c + 2 != b - a)) {
+  a = b + c;
+  c = b + a;
+} else { 
+    a = a + b; 
+}
+if ((a + b != c) && ((a - 1 <= b + 10) || (c + b != a / 10))) {
+    if ((a + b + c != 20) && (b - b <= 0 || c + c != 10)) {
+      a = b - b;
+      c = a;
+    }
+}
+console.log(b + c);
+</code>
+</pre>
+<br>
+<pre class="ert">
+A - 10    C - NoThing
+b - 9     D - 100
+</pre>
+<br>
+<hr>
+<hr>
+<hr>
+<br>
+<h2>السؤال الثالث</h2>
+<h3>ما نتيجة الكود الأتي</h3>
+<pre class="qwe">
+<code>
+let num = 12;
+let nUm = 21;
+let nuM = 0;
+let nUM = 20;
+
+if (((nUM <= num + nuM) || (num + nUM != 12)) && (nuM <= num - nUm)) {
+    if ((num + nUm != nuM) || (nUM != num)) {
+        nUm = num + 10;
+    }
+} 
+else {
+    nuM = nUM + nUm; 
+    num = nuM - nUM;
+}
+
+if (num == nUm || num + nUm <= nUM) {
+    nUM = num + nUm;
+    nUM = nuM - nUM + num;
+} else {
+    num = 0;
+    nUm = num + num;
+}
+console.log(nUm + nUm);
+</code>
+</pre>
+<br>
+<pre class="ert">
+A - Error   C - 42
+b - 24      D - NoThing
+</pre>
+<br>
+<hr>
+<hr>
+<hr>
+<br>
+<h2>السؤال الرابع</h2>
+<h3>ما نتيجة الكود الأتي</h3>
+<pre class="qwe">
+<code>
+let n = 100;
+let o = 10;
+let p = 20;
+let u = 21;
+if((n + p == u && p - o >= n) || (p + o != u) && (u - 1 <= n - 100)) {
+  n = p - o;
+  u = p + n;
+} else {
+  o = u;
+  n = u - o;
+}
+if ((n + u == o + n) || (p + n <= o + p)) {
+    if (((u - 1 <= n) ||(p + n == u) && (n + p != u + 1))) {
+        n = n + p + 1;
+        u = n + p;
+    }
+}
+ else {
+  n = o + p;
+}
+console.log(n + p);
+</code>
+</pre>
+<br>
+<pre class="ert">
+A - 10   C - 0
+b - 21   D - 20
+</pre>
+<br>
+<hr>
+<hr>
+<hr>
+<br>
+<h2>السؤال الخامس</h2>
+<h3>ما نتيجة الكود الأتي</h3>
+<pre class="qwe">
+<code>
+let vegetablesList = ["tomato" , "potato" , "watercress"];
+let num = vegetablesList.length + 2;
+
+if (((vegetablesList.length <= 10) || (vegetablesList.length >= 15)) && ((vegetablesList.length <= 2))) {
+    if ((vegetablesList.length != vegetablesList.length - 0) && (num >= vegetablesList.length)) {
+        num = vegetablesList.length + 1;
+    }
+}
+else if ((vegetablesList.length + 1 < 4) || (vegetablesList.length - 1 >= 1)) {
+    console.log("B");
+} else {
+    console.log("C");
+}
+
+</code>
+</pre>
+<br>
+<pre class="ert">
+A - C       C - B
+b - Error   D - A
+</pre>
+<br>
+<hr>
+<hr>
+<hr>
+<br>
+<h2>السؤال السادس</h2>
+<h3>ما نتيجة الكود الأتي</h3>
+<pre class="qwe">
+<code>
+let list1 = ["soup", "chicken", "rice", "salad"];
+let list2 = ["watermelon", "apple"];
+let num = 1
+
+if ((list1.length <= 12) && (list2.length >= list1.length)) {
+    if (list2.length == list1.length) {
+        num = 1 + num;
+    }
+}
+
+ else {
+  console.log(list1[1]);
+}
+</code>
+</pre>
+<br>
+<pre class="ert">
+A - tomato   C - 2
+b - chicken  D - soup
+</pre>
+<h2>السؤال السابع</h2>
+<h3>ما نتيجة الكود الأتي</h3>
+<pre class="qwe">
+<code>
+let aList = ["three", "five"];
+let bList = ["1", "2"];
+let cList = ["2"];
+
+if ((aList.length <= cList.length) || (bList.length > cList.length) && (cList.length + 1 != bList.length + 1)) {
+  console.log("B & C are Big");
+} else {
+  console.log("A is small");
+}
+</code>
+</pre>
+<br>
+<pre class="ert">
+A - A is small   C - B & C are Big 
+b - Error        D - NoThing
+</pre>
+<br>
+<hr>
+<hr>
+<hr>
+<br>
+<h2>السؤال الثامن</h2>
+<h3>ما نتيجة الكود الأتي</h3>
+<pre class="qwe">
+<code>
+let list1 = ["soup", "chicken", "rice", "salad"];
+let list2 = ["watermelon", "apple"];
+
+if ((list1.length <= 12) && (list2.length >= list1.length)) {
+    for(let i = 1; i < list2.length; i++) {
+      console.log(list2[1]);
+    }
+} else {
+  console.log(list1[1]);
+}
+</code>
+</pre>
+<br>
+<pre class="ert">
+A - chicken  C - 0
+b - 2        D - banana
+</pre>
+<br>
+<hr>
+<hr>
+<hr>
+<br>
+<h2>السؤال  التاسع</h2>
+<h3>ما نتيجة الكود الأتي</h3>
+<pre class="qwe">
+<code>
+let mySkills = ["HTML", "CSS", "JS"];
+let score = 0;
+let isLearning = true;
+
+if (isLearning === true) {
+    if ((isLearning == true) || (score <= 0)) {
+     for (let i = 0; i < mySkills.length; i++) {
+    score = score + 5; 
+         }
+    }
+} else {
+  score = 100;
+}
+
+console.log(score + 1);
+</code>
+</pre>
+<br>
+<pre class="ert">
+A - 3  C - NoThing
+b - 1  D - 16
+</pre>
+<br>
+<hr>
+<hr>
+<hr>
+<br>
+<h2>السؤال العاشر</h2>
+<h3>ما نتيجة الكود الأتي</h3>
+<pre class="qwe">
+<code>
+let foodList = ["potato" , "rice" , "tomato"];
+let fruitList = ["apple" ,];
+let num = 8;
+if ((fruitList.length <= foodList.length) && (foodList.length <= fruitList.length)) {
+    num = num + 1 + num; 
+    console.log(num - num);
+} else if ((foodList.length == 0) || (fruitList.length >= foodList.length)) {
+    console.log(fruitList[0]);
+} else {
+    console.log(num + 1);
+}
+</code>
+</pre>
+<br>
+<pre class="ert">
+A - 2  C - apple
+b - 0  D - 9
+</pre>
+<br>
+<hr>
+<h5>ترقبوا المستوى الرابع والأخير والذي سوف يُحل إلكترونياً وتحسب لك الدرجة فوراً</h5>
+<br>
+<hr>
+<hr>
+<hr>
+<br>
+<div style="text-align: center; margin-top: 50px; margin-bottom: 50px;">
+    <a href="answers.html" class="btn-answers">عرض الإجابات النموذجية</a>
+</div>
+<footer class="final-footer">
+    <hr>
+    <p> : تم إعداد هذا الاختبار تحت إشراف</p>
+    <div class="supervision">
+        <div class="person">
+            <strong>  مدير المدرسة</strong>
+            <span>  الأستاذ /أحمد صلاح كفلي  </span>
+        </div>
+        <div class="person">
+            <strong>  المطورة الفنية</strong>
+            <span>  الأستاذة/وفاء بهلول  </span>
+        </div>
+    </div>
+    <p style="margin-top: 20px; font-size: 14px; color: #777;">برمجة وتطوير الطالب: هشام عبد الرشيد فهمي عبد الرشيد</p>
+</footer>
+</body>
+</html>
